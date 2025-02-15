@@ -9,7 +9,9 @@ st.title("Emmy's Internal Linking Opportunities Finder")
 # Instructions for the user
 st.markdown("""
 ### Instructions:
-1. Ensure your Excel file follows the exact column order and names:
+1. Get a semrush, ahrefs or search console export of your most important pages.
+
+2.Ensure your Excel file follows the exact column order and names:
    - **Keyword**
    - **Position**
    - **Search Volume**
@@ -19,6 +21,8 @@ st.markdown("""
 
 3. If you encounter any blockers, let me know on [whatsapp](https://chat.whatsapp.com/KiHGrvcJX0i8kXP18aL2g2)
 """)
+
+
 
 # File uploader for the keyword sheet
 uploaded_file = st.file_uploader("Upload your Excel file with keywords and URLs", type=["xlsx"])
