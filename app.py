@@ -6,16 +6,14 @@ from bs4 import BeautifulSoup
 # App title
 st.title("Emmy's Internal Linking Opportunities Finder")
 
-# Instructions for the user
+# Instructions for the user or just watch this [video](https://www.udemy.com/course/python-for-seo-and-content-automation/)
 st.markdown("""
 ### Instructions:
-1. Get a semrush, ahrefs or search console export of your most important pages.
-
-2.Ensure your Excel file follows the exact column order and names:
-   - **Keyword**
-   - **Position**
-   - **Search Volume**
-   - **Keyword Difficulty**
+1.Ensure your Excel file follows the exact column order and names:
+   - Keyword
+   - Position
+   - Search Volume
+   - Keyword Difficulty
    - **URL**
 2. Save the file as an `.xlsx` format before uploading.
 
