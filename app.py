@@ -107,7 +107,7 @@ if uploaded_file:
         st.write("Required columns:", required_columns)
 
 # Sidebar for app instructions
-st.sidebar.title("How to Use This App")
+st.sidebar.title("How to Use This App or watch this [video](https://www.udemy.com/course/python-for-seo-and-content-automation/)")
 st.sidebar.markdown("""
 This tool assists SEO specialists, content teams, and general website users in finding internal linking opportunities without having to pay a costly subscription. Internal linking is important in SEO because of the following reasons:
 
