@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # App title
-st.title("Emmy's Internal Linking Opportunities Finder - [Shoot Me A Message](https://www.udemy.com/course/python-for-seo-and-content-automation/)")
+st.title("Emmy's Internal Linking Opportunities Finder")
 
 # Instructions for the user or just watch this [video](https://www.udemy.com/course/python-for-seo-and-content-automation/)
 st.markdown("""
@@ -14,14 +14,11 @@ st.markdown("""
    - Position
    - Search Volume
    - Keyword Difficulty
-   - **URL**
+   - URL
 2. Save the file as an `.xlsx` format before uploading.
 
 3. If you encounter any blockers, let me know on [whatsapp](https://chat.whatsapp.com/KiHGrvcJX0i8kXP18aL2g2)
 """)
-
-
-
 # File uploader for the keyword sheet
 uploaded_file = st.file_uploader("Upload your Excel file with keywords and URLs", type=["xlsx"])
 
