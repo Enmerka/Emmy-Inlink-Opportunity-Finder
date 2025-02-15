@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # App title
-st.title("Emmy's Internal Linking Opportunities Finder")
+st.title("Internal Linking Opportunities Finder")
 
 # Instructions for the user or just watch this [video](https://www.udemy.com/course/python-for-seo-and-content-automation/)
 st.markdown("""
