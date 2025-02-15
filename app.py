@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # App title
-st.title("Internal Linking Opportunities Finder")
+st.title("Emmy's Internal Linking Opportunities Finder")
 
 # Instructions for the user
 st.markdown("""
@@ -107,11 +107,10 @@ st.sidebar.title("How to Use This App")
 st.sidebar.markdown("""
 This tool assists SEO specialists, content teams, and general website users in finding internal linking opportunities without having to pay a costly subscription. Internal linking is important in SEO because of the following reasons:
 
-- **The anchor texts are used as keyword relevancy signals for the target URL. This means that the keywords used to link to a page can influence the type of queries that page will be relevant for.**
-- **Internal linking helps to improve a site's internal architecture. This helps search engines to determine the topical authority of the site while easing the flow of PageRank (or link equity).**
-- **Internal linking improves overall aggregation of implicit user feedback signals across the pages of a site.**
-- **It can also be used to mold or sculpt the website representation vectors in ways that match what's obtainable for leading sites in the same niche or vertical.**
+- The anchor texts are used as keyword relevancy signals for the target URL. This means that the keywords used to link to a page can influence the type of queries that page will be relevant for.**
+- Internal linking helps to improve a site's internal architecture. This helps search engines to determine the topical authority of the site while easing the flow of PageRank (or link equity).**
+- Internal linking improves overall aggregation of implicit user feedback signals across the pages of a site.**
+- It can also be used to mold or sculpt the website representation vectors in ways that match what's obtainable for leading sites in the same niche or vertical.**
 
-### If all these seem unclear or complex, join this community:
-I have linked a Google form [here](https://forms.gle/ApsYbueBdggSvgFD6).
+### If all these seem unclear or complex, join this community[Here](https://chat.whatsapp.com/KiHGrvcJX0i8kXP18aL2g2)
 """)
