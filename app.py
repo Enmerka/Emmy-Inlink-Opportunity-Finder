@@ -16,6 +16,8 @@ st.markdown("""
    - **Keyword Difficulty**
    - **URL**
 2. Save the file as an `.xlsx` format before uploading.
+
+3. If you encounter any blockers, let me know on [whatsapp](https://chat.whatsapp.com/KiHGrvcJX0i8kXP18aL2g2)
 """)
 
 # File uploader for the keyword sheet
@@ -45,7 +47,7 @@ if uploaded_file:
         list_keyword_url = [[x[4], x[0], x[1]] for x in list_keywords]
 
         # Absolute route input
-        absolute_rute = st.text_input("Insert your absolute route (e.g., https://example.com)")
+        absolute_rute = st.text_input("Insert your absolute route (type a forward slash)")
 
         # Button to process the data
         if st.button("Find Internal Linking Opportunities"):
@@ -112,5 +114,7 @@ This tool assists SEO specialists, content teams, and general website users in f
 - Internal linking improves overall aggregation of implicit user feedback signals across the pages of a site.**
 - It can also be used to mold or sculpt the website representation vectors in ways that match what's obtainable for leading sites in the same niche or vertical.**
 
-### If all these seem unclear or complex, join this community[Here](https://chat.whatsapp.com/KiHGrvcJX0i8kXP18aL2g2)
+### If all these seem unclear or complex, join this community
+
+I have Embedded the Link [Here](https://chat.whatsapp.com/KiHGrvcJX0i8kXP18aL2g2)
 """)
