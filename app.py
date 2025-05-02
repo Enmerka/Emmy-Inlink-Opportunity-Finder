@@ -17,7 +17,6 @@ st.markdown("""
    - URL
 2. Save the file as an `.xlsx` format before uploading.
 
-3. If you encounter any blockers, let me know on [whatsapp](https://chat.whatsapp.com/KiHGrvcJX0i8kXP18aL2g2)
 """)
 # File uploader for the keyword sheet
 uploaded_file = st.file_uploader("Upload your Excel file with keywords and URLs", type=["xlsx"])
